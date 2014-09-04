@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YelpClient</string>
+    <string name="action_settings">Settings</string>
+    <string name="consumer_key">kMHewbicwwtzaeVnBet9JQ</string>
+    <string name="consumer_secret">NH56MMadM5aVM-KeSVSlLxTWVcw</string>
+    <string name="token">cANfbpospylntDqC7VC8vOAz4B3aqnxW</string>
+    <string name="token_secret">9Gx50YLIxUMsCIjvcvtJVrgBRFM</string>
+
+</resources>

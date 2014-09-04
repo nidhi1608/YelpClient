@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <com.example.yelpclient.app.helpers.RoundedCornerImageView
+        android:id="@+id/ivBusiness"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/tvBusinessName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ivBusiness"
+        android:layout_marginTop="7dp"
+        style="@style/TextView"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:layout_width="94dp"
+        android:layout_height="20dp"
+        android:id="@+id/ivRating"
+        android:layout_toRightOf="@+id/ivBusiness"
+        android:layout_below="@+id/tvBusinessName" />
+
+    <TextView
+    android:id="@+id/tvReviewCount"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/ivRating"
+    android:layout_below="@+id/tvBusinessName"
+    android:layout_alignBaseline="@+id/ivRating"
+    style="@style/TextView"
+    android:paddingLeft="5dp"
+    android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivRating"
+        android:layout_alignLeft="@+id/ivRating"
+        style="@style/TextView"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tvCategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLocation"
+        android:layout_alignLeft="@+id/tvLocation"
+        android:textColor="#8F8F8F"
+        style="@style/TextView"
+        android:paddingBottom="10dp"
+        android:textSize="13sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextViewBold" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">sans-serif-condensed-bold</item>
+    </style>
+
+    <style name="TextView" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextViewLight" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="TextViewThin" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+</resources>
